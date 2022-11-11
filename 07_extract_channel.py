@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 image = cv.imread('cat.jpg')
-(height, width, channel) = image.shape
+height, width, channel = image.shape
 
 red = image * [0,0,1]
 green = image * [0,1,0]

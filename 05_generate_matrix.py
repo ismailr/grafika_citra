@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 image = cv.imread ("cat.jpg")
-(height, width, channel) = image.shape
+height, width, channel = image.shape
 
 black = np.zeros ((height, width, channel), dtype='uint8')
 cv.imshow('black', black)

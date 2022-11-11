@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 img = cv.imread('cat.jpg')
-(height, width, channel) = img.shape
+height, width, channel = img.shape
 
 for y in range (height):
     for x in range (width):
