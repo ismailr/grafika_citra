@@ -1,5 +1,4 @@
 import cv2 as cv
-import numpy as np
 
 img = cv.imread('cat.jpg')
 height, width, channel = img.shape
