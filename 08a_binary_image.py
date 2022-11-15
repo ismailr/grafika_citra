@@ -14,5 +14,7 @@ for y in range (height):
 cv.imshow('image',img)
 cv.waitKey()
 
-# Ubahlah sehingga warna putih menjadi hitam
-# dan warna hitam menjadi putih
+# Ubahlah menjadi 3 warna
+# jika rata-rata < 85, warna piksel jadi hitam
+# jika rata-rata >= 85 dan < 170, warna piksel jadi abu-abu [128,128,128] 
+# dan jika rata-rata >= 170, warna piksel jadi putih

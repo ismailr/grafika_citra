@@ -1,8 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-image = cv.imread ("cat.jpg")
-height, width, channel = image.shape
+height, width, channel = (400,400,3)
 
 black = np.zeros ((height, width, channel), dtype='uint8')
 cv.imshow('black', black)
@@ -16,7 +15,7 @@ red = np.full ((height, width, channel), [0,0,255], dtype='uint8')
 cv.imshow('red', red)
 cv.waitKey()
 
-grey = np.ones ((height, width, channel), dtype='uint8') * 150
+grey = np.ones ((height, width, channel), dtype='uint8') * 128
 cv.imshow('grey', grey)
 cv.waitKey()
 

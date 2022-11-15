@@ -15,5 +15,6 @@ cv.imshow('image_kurang',image_kurang)
 cv.waitKey()
 
 # load gambar baru
-# lalu gunakan cv.add() untuk menambahkan gambar lama
+# lalu gunakan cv.add() dan cv.subtract() 
+# untuk menambahkan dan mengurangi gambar lama
 # dengan gambar baru ini
